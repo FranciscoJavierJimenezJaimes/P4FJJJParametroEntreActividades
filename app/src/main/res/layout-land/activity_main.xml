@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/fs"
+                android:layout_width="match_parent"
+                android:layout_height="253dp"
+                android:contentDescription="@string/fs"
+                app:srcCompat="@drawable/fs" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/Bienvenido"
+                    android:layout_width="340dp"
+                    android:layout_height="91dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="189dp"
+                    android:layout_marginBottom="-6dp"
+                    android:text="@string/Bienvenido"
+                    android:textColor="#174D74"
+                    android:textSize="60sp" />
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/txtnombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/inombre"
+                android:inputType="textPersonName" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/botonsaludo"
+                    style="@android:style/Widget.Button.Inset"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="115dp"
+                    android:layout_marginTop="-4dp"
+                    android:layout_marginEnd="340dp"
+                    android:layout_marginBottom="4dp"
+                    android:background="@drawable/saludo"
+                    android:onClick="Invocar" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/saludo"
+                    android:layout_width="581dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="55dp"
+                    android:layout_marginBottom="0dp"
+                    android:text="@string/saluda"
+                    android:textColor="#138B53"
+                    android:textSize="36sp" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

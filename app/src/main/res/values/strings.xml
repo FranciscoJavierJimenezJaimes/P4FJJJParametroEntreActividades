@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">P4FJJJ</string>
+    <string name="Bienvenido">Bienvenido</string>
+    <string name="fs">fs</string>
+    <string name="nombre">Ingresa tu nombre</string>
+    <string name="inombre">Ingresa tu nombre</string>
+    <string name="bsaluda">Saludar</string>
+    <string name="creador">Francisco Javier Jiménez Jaimes</string>
+    <string name="grupo">7T11</string>
+    <string name="App">Aplicación creada por:</string>
+    <string name="itemacercade">Acerca de</string>
+    <string name="saluda">clic arriba para que te salude</string>
+    <string name="version">Versión               1.0</string>
+    <string name="docente">Docente: </string>
+    <string name="Victor">Victor Hugo de la o Martínez</string>
+    <string name="grup">Grupo: 7T11</string>
+    <string name="escuelanombre">Tecnológico: TESOEM</string>
+
+</resources>
